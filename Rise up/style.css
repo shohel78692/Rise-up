@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Architects Daughter', cursive;
+}
+
+.main{
+	height: 100vh;
+	width: 100%;
+	background-color: dodgerblue;
+}
+.row{
+	display: inline-flex;
+	height: 550px;
+	width: 685px;
+	background-color: #fff;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	border-radius: 14px;
+}
+/*a{
+	height: 100%;
+	width: 50%;
+}
+b{
+	height: 100%;
+	width: 50%;
+}*/
+#left{
+	height: 100%;
+	width: 342.5px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-top-left-radius: 14px;
+	border-bottom-left-radius: 14px;
+	/*background: #20002c;*/  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #cbb4d4, #20002c);  /* Chrome 10-25, Safari 5.1-6 
+*/    background-image:linear-gradient(rgba(153, 0, 204,0.6), rgba(153, 0, 204,0.6)), url('left.jpg');
+
+}
+#left h2{
+    color: #fff;
+    font-size: 22px;
+    margin-top: 385px;
+    margin-left: 20px;
+    padding-bottom: 15px;
+}
+#left p{
+	color: #fff;
+	font-weight: bold;
+	font-size: 16px;
+	margin-left: 20px;
+	padding-bottom: 55px;
+}
+#left strong{
+	color: #fff;
+	float: right;
+	margin-right: 23px;
+}
+span{
+	color: #fff;
+	font-size: 23px;
+}
+.check{
+	display: inline-flex;
+}
+#right{
+    padding-left: 40px;
+    display: block;
+    width: 342.5px;
+}
+#right h1{
+	font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+label{
+	font-size: 14px;
+	padding-top: 17px;
+	padding-bottom: 15px;
+	padding-right: 120px;
+}
+input{
+	padding: 12px 60px 12px 60px;
+	border: 1px solid purple;
+	border-radius: 10px;
+	margin-top: 9px;
+	margin-right: 40px;
+	margin-bottom: 13px;
+	outline: none;
+}
+#op{
+	margin-right: 8px;
+}
+.check p{
+	text-decoration: underline;
+	color: blue;
+	padding-top: 5px;
+}
+button{
+	margin-left: 74px;
+	padding: 8px 34px 8px 34px;
+	color: #fff;
+	background-color: blue;
+	border-radius: 10px;
+	margin-top: 15px;
+	font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
